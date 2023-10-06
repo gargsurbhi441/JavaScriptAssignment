@@ -1,0 +1,13 @@
+let str='Banana Apple Mango';
+console.log(str.charAt(7));
+let str1='Pear';
+console.log(str.concat(" ",str1));
+console.log(str.indexOf('Apple'));
+console.log(str.match(/apple/i));
+console.log(str.replace("Mango", "Orange"));
+console.log(str.search(/apple/i));
+const arr=str.split(" ");
+console.log(arr);
+console.log(str.substring(0,6));
+console.log(str.valueOf());
+console.log(str.toUpperCase());
